@@ -1,5 +1,5 @@
 # README
-这是一个Bilibili爬虫。
+这是一个bilibili爬虫。
 ## 爬取到的内容
 1. "title" 标题
 2. "class1" 类别1
