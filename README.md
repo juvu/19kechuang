@@ -1,6 +1,10 @@
 # README
 这是一个bilibili爬虫。
 
+## 运行环境
+1. python3
+2. 一些第三方库
+
 ## 爬取到的内容
 1. "title" 标题
 2. "class1" 类别1
