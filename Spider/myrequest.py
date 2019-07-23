@@ -23,8 +23,8 @@ USER_AGENT_LIST = [ \
 import random
 import requests
 def get(url, decode=True):
-    # response = requests.get(url=url, headers=self.headers, proxies=self.proxies, verify=False)
     headers = {'User-Agent': random.choice(USER_AGENT_LIST)}
+    # res = requests.get(url=url, headers=self.headers, proxies=self.proxies, verify=False)
     res = requests.get(url=url, headers=headers)
     if decode:
         res=res.content.decode()

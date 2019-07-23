@@ -1,11 +1,13 @@
 # README
-这是一个bilibili爬虫。
+Spider文件夹中，是一个bilibili弹幕爬虫。
+Sub-Ob-jective文件夹中，是主客观分类程序。（待完成
 
 ## 运行环境
 1. python3
 2. 一些第三方库
 
 ## 爬取到的内容
+使用Json格式保存。
 1. "title" 标题
 2. "class1" 类别1
 3. "class2" 类别2
